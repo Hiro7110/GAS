@@ -1,6 +1,6 @@
 // begin transaction
 function beginTransaction(service) {
-  var uri = "https://datastore.googleapis.com/v1/projects/" + PROJECT_ID + ":beginTransaction?fields=transaction&key=" + API_KEY
+  var uri = "" + API_KEY
   var headers = { "Authorization": "Bearer " + service.getAccessToken() };
   var options = {
     "headers"     : headers,
