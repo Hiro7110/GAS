@@ -12,7 +12,7 @@ function beginTransaction(service) {
 }
 
 function commit(service, body) {
-  var uri = "https://datastore.googleapis.com/v1/projects/" + PROJECT_ID + ":commit?key=" + API_KEY
+  var uri = "" + API_KEY
   var headers = { "Authorization": "Bearer " + service.getAccessToken() };
   var options = {
     "headers"     : headers,
