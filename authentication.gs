@@ -1,11 +1,11 @@
 // Google Cloud OAuth2 Tokens
-var PROJECT_ID = "mnes-lookrec-stg";
-var CLIENT_ID = "110109273643-41oea4357rdr4f6mgqor96dehd5r9atg.apps.googleusercontent.com";
-var CLIENT_SECRET = "Oesqnqpys1ooSwAFUY8IGTiS";
-var API_KEY = "AIzaSyDDR-BqwbkobxIQr3wYWUbJQ-gP_W-XNdg"
+var PROJECT_ID = "";
+var CLIENT_ID = "";
+var CLIENT_SECRET = "";
+var API_KEY = ""
 
 // SpreadSheet configs
-var SPREAD_ID = "1NLI_8UxAhmrP_kdcrs2pn67hF-XvCiK79QMgx7eZ5bE";
+var SPREAD_ID = "";
 var SHEETS = "";
 
 function onOpen(){
